@@ -12,7 +12,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:#FFFFFF}
 a{color:#3D7BF7}a:hover{opacity:.92}
-.roller{display:inline-block;overflow:hidden;vertical-align:bottom;line-height:1.4;height:1.4em}
+.roller{display:inline-block;overflow:hidden;vertical-align:top;line-height:inherit;height:1.5em}
 .roll-word{display:inline-block;transition:transform .35s ease,opacity .35s ease}
 .roll-word.out{transform:translateY(-100%);opacity:0}
 .roll-word.in{transform:translateY(100%);opacity:0;transition:none}
@@ -178,13 +178,13 @@ a{color:#3D7BF7}a:hover{opacity:.92}
 
 <!-- AI vs CAREERBUD -->
 <div style="display: flex; flex-wrap: wrap; gap: 20px">
-<div style="flex: 1 1 320px; min-width: 0; border: 1px solid #E5E7EB; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 8px; align-items: center; text-align: center">
+<div style="flex: 1 1 320px; min-width: 0; border: 1px solid #E5E7EB; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center; text-align: center">
 <span style="font-size: 15px; font-weight: 700; color: #6B7280">일반 AI는</span>
-<p style="margin: 0; font-size: 24px; font-weight: 800; color: #6B7280">'<span class="roller"><span class="roll-word" data-roll="field">마케팅</span></span> 직무'를 압니다</p>
+<p style="margin: 0; font-size: 24px; font-weight: 800; color: #6B7280; line-height: 1.5">'<span class="roller"><span class="roll-word" data-roll="field">마케팅</span></span>' 직무를 압니다</p>
 </div>
-<div style="flex: 1 1 320px; min-width: 0; background: #3D7BF7; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 8px; align-items: center; text-align: center">
+<div style="flex: 1 1 320px; min-width: 0; background: #3D7BF7; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center; text-align: center">
 <span style="font-size: 15px; font-weight: 700; color: #DCE8FF">커리어벗은</span>
-<p style="margin: 0; font-size: 24px; font-weight: 800; color: #FFFFFF">'이 회사가 함께 일하고 싶은 <span class="roller"><span class="roll-word" data-roll="person">마케터</span></span>'를 압니다</p>
+<p style="margin: 0; font-size: 24px; font-weight: 800; color: #FFFFFF; line-height: 1.5">이 회사가 함께 일하고 싶은<br>'<span class="roller"><span class="roll-word" data-roll="person">마케터</span></span>'를 압니다</p>
 </div>
 </div>
 </div>
